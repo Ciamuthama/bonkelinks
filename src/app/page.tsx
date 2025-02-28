@@ -13,7 +13,7 @@ export default function Home() {
         <p className="text-3xl text-white text-center">
           Our site is Under Construction
         </p>
-        <p className="text-sm text-white font-medium">We will be live soon. Stay tunned</p>
+        <p className="text-sm text-white font-medium">We will be live soon. Stay tuned</p>
       </div>
     </div>
   );
