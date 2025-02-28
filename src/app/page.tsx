@@ -11,9 +11,9 @@ export default function Home() {
       height={150}
       />
         <p className="text-3xl text-white text-center">
-          <span className="">BonkeLinks</span> is Under Construction
+          Our site is Under Construction
         </p>
-        <p className="text-sm text-white font-medium">Site will be live soon. Stay tunned</p>
+        <p className="text-sm text-white font-medium">We will be live soon. Stay tunned</p>
       </div>
     </div>
   );
