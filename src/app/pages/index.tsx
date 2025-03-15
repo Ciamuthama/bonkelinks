@@ -6,35 +6,38 @@ const HomePage: NextPage = () => {
     <div>
       <section
         id="herosection"
-        className="mx-auto flex flex-col justify-around text-center bg-[url(/connect.jpg)] h-[40rem] bg-cover bg-center bg-no-repeat"
+        className="text-center bg-[url(/connect.jpg)] lg:h-[40rem] md:h-[30rem] h-[20rem] bg-cover bg-center bg-no-repeat"
       >
-        <div>
-          <h2 className="font-bold text-4xl text-white">Bonkelinks Internet Solutions</h2>
-          <h3 className="!italic font-medium text-sm text-white">
+        <div className="bg-custom-600/60 flex flex-col gap-10 justify-center lg:h-[40rem] md:h-[30rem] h-[20rem]  ">
+          <div className="max-sm:mb-6">
+
+          <h2 className="font-bold lg:text-6xl md:text-3xl text-2xl text-white ">Bonkelinks Internet Solutions</h2>
+          <h3 className="!italic font-medium lg:text-xl md:text-lg text-base text-white">
             “Seamless Internet, Infinite Possibilities.”
           </h3>
         </div>
-        <div>
-          <p className="text-base text-wrap mt-2">
+        <div className="mx-auto gap-2 ">
+          <p className="lg:text-xl md:text-lg text-sm text-wrap text-white lg:w-full md:w-full w-[70%] mx-auto">
             High-speed, secure internet solutions for your home and on-the-go
             connectivity. <br /> Experience a service designed to keep you
             connected in a modern world.
           </p>
-        </div>
-        <div className="bg-custom-600 hover:bg-custom-500 mx-auto text-center flex justify-center items-center rounded-lg">
-          <button type="button" className="text-white font-semibold px-3 py-2">
+        <div className="bg-custom-500 hover:bg-custom-400 mt-3 mx-auto text-center flex justify-center items-center rounded-lg w-[30%]">
+          <button type="button" className="text-white font-semibold px-3 py-2 lg:text-lg md:text-base text-sm">
             Connect Now
           </button>
         </div>
+        </div>
+      </div>
       </section>
 
       <section id="packages" className="mx-auto mt-5">
         <h2 className="font-bold text-2xl text-center">Our Packages</h2>
         <h3 className="font-semibold text-base text-center">Home Packages</h3>
-        <div className="flex flex-row mx-auto justify-center gap-10 mt-18">
+        <div className="flex flex-row mx-auto justify-center flex-wrap gap-10 lg:mt-18 mt-10">
           <div
             id="basic pack"
-            className="px-10 py-5 rounded-[16px] border shadow-xl border-neutral-100 bg-white text-black flex justify-between flex-col"
+            className="px-10 py-5 rounded-[16px] border shadow-xl border-neutral-100 bg-white text-black flex justify-between flex-col flex-wrap"
           >
             <div className="mb-5">
               <h2 className="text-center font-semibold">Basic Pack</h2>
@@ -113,7 +116,7 @@ const HomePage: NextPage = () => {
 
           <div
             id="Preferred Pack"
-            className="relative px-10 py-5 rounded-[16px] border shadow-xl border-neutral-100 bg-white text-black flex justify-between flex-col"
+            className="relative px-10 py-5 lg:mt-auto mt-8 rounded-[16px] border shadow-xl border-neutral-100 bg-white text-black flex justify-between flex-col"
           >
             <div>
               <h2 className="text-center font-semibold">Preferred Pack</h2>
@@ -206,9 +209,9 @@ const HomePage: NextPage = () => {
           </div>
         </div>
 
-        <div id="Street Hotspot" className="mt-14">
+        <div id="Street Hotspot" className="mt-10">
           <h2 className="text-center font-bold text-xl">Street Hotspot </h2>
-          <h3 className="text-center font-medium">
+          <h3 className="text-center font-medium lg:text-base md:text-sm text-sm">
             Stay online wherever you are—quick, accessible internet bundles at
             street hotspots.
           </h3>
@@ -216,19 +219,17 @@ const HomePage: NextPage = () => {
             Fast activation, flexible bundles tailored to usage needs, and the
             same reliable support.
           </p>
-          <Image
+          <img
             src={"/11180.jpg"}
             alt=""
-            width={700}
-            height={700}
-            className="mx-auto rounded-[16px]"
+            className="mx-auto rounded-[16px] lg:w-[900px] w-[350px] mt-3"
           />
         </div>
       </section>
 
       <section
         id="installation section"
-        className="mx-auto flex flex-col place-content-center mt-5 mb-10"
+        className="mx-auto flex flex-col flex-wrap place-content-center mt-5 mb-10"
       >
         <h2 className="text-center font-bold text-xl">Installation Process</h2>
         <h3 className="text-center font-medium !italic text-sm">
@@ -236,8 +237,8 @@ const HomePage: NextPage = () => {
         </h3>
 
         <div className="flex flex-col justify-center mt-5">
-          <h3 className="text-center font-bold mb-2">Three easy steps</h3>
-          <ul className="text-center flex flex-row gap-5">
+          <h3 className="text-center font-bold mb-2">3 Easy steps</h3>
+          <ul className="text-center flex flex-row flex-wrap gap-10">
             <li className="relative flex mx-auto rounded-[16px] shadow">
               <Image
                 src="/step1.jpg"
