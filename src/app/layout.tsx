@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Assistant } from "next/font/google";
 import "./globals.css";
 import Nav from "./pages/naviation";
+import Footer from "./pages/footer";
 
 
 const geistSans = Assistant({
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Footer/>
     </html>
   );
 }
