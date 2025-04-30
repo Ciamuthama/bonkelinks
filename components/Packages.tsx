@@ -95,10 +95,10 @@ export default function Packages() {
           >
             <div>
               <h2 className="text-center font-semibold">Preferred Pack</h2>
-              <h3 className="text-center font-medium">Kes 1,500/mo</h3>
+              <h3 className="text-center font-medium">Kes 3,000/mo</h3>
               <ul className="flex flex-col justify-center gap-4 my-2">
                 <li>
-                  <p>15 Mbps</p>
+                  <p>10 Mbps</p>
                 </li>
                 <li>
                   <p>Streaming upto HD</p>
@@ -143,7 +143,7 @@ export default function Packages() {
           >
             <div>
               <h2 className="text-center font-semibold">Ultra Pack</h2>
-              <h3 className="text-center font-medium">Kes 1,500/mo</h3>
+              <h3 className="text-center font-medium">Kes 4,000/mo</h3>
 
               <ul className="flex flex-col justify-center gap-4 my-2">
                 <li>

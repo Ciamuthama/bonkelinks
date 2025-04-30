@@ -1,7 +1,8 @@
+import QuickLinks from "../../../components/QuickLinks"
 
 const Footer = ({}) => {
   return <div className="bg-custom-600">
-   iam a footer
+   <QuickLinks/>
   </div>
 }
 
